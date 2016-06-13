@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  test
+//
+//  Created by jc on 16/6/5.
+//  Copyright © 2016年 Tarena. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import "SDWebImageDownloader.h"
+#import <QuartzCore/QuartzCore.h>
+#import "KrVideoPlayerController.h"
+#import <AVFoundation/AVFoundation.h>
+
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+#define Content_bg_Width [UIScreen mainScreen].bounds.size.width*0.947
+#define ImageWidth [UIScreen mainScreen].bounds.size.height/3*1.4
+#define ImageHeight [UIScreen mainScreen].bounds.size.height/3
+#define NewFont [UIFont fontWithName:@"FZMiaoWuS-GB" size:18];
+#define ButtonSize Content_bg_Width/4
+
+#endif /* PrefixHeader_pch */
